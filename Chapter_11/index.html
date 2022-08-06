@@ -1,0 +1,658 @@
+﻿<!doctype html>
+<!--[if lt IE 8 ]><html lang="en" class="no-js ie ie7"><![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie"><![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!-->
+<html lang="en" class="no-js" id="pt">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Chapter 11 | Welcome to Eupheus Learning</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Global stylesheets -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/common.css" rel="stylesheet" type="text/css">
+<link href="../css/standard.css" rel="stylesheet" type="text/css">
+<link href="../css/block-lists.css" rel="stylesheet" type="text/css">
+<!-- Comment/uncomment one of these files to toggle between fixed and fluid layout -->
+<!--<link href="css/960.gs.css" rel="stylesheet" type="text/css">-->
+<link href="../css/960.gs.fluid.css" rel="stylesheet" type="text/css">
+<link href="../css/main-slider.css" rel="stylesheet" type="text/css">
+<link href="../css/bookblock.css" rel="stylesheet" type="text/css">
+<link href="../css/demo_bookblock.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png">
+<link href="../chap11-12-13_assets/css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+		<link href="../chap11-12-13_assets/css/1_Chapter_11-12-13-1.css" rel="stylesheet" type="text/css" />
+		<link href="../css/interactivity_case1.css" rel="stylesheet" type="text/css" />
+		<script src="../js/jquery-1.11.3.js" type="text/javascript" ></script>
+		<script src="../js/jquery-ui.js" type="text/javascript" ></script>
+		<script type="text/javascript" src="../js/jquery.bpopup.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/disablepoptype.js" type="text/javascript" ></script>
+		<script src="../js/function_video_audio.js" type="text/javascript" ></script>
+		<script src="../js/page40-41.js" type="text/javascript" ></script>
+
+</head>
+
+<body>
+<div id="et">
+  <div id="upper">
+    <header>
+      <div class="container_12">
+        <div class="">
+          <div class="server-info"> <img src="../images/logo.png" class="logo"/> </div>
+          <nav id="main-nav" class="container_10">
+            <ul>
+              <li class="home current"> <a href="#" title="WOW">General Knowledge</a> </li>
+              <li class="write"> <a href="javascript:void(0)" class="this" onClick="highlightStart()" title="Highlight Text">Highlighter</a> </li>
+              <li class="users"> <a href="#" title="Zoom" id="zoom">Zoom</a>
+                <div class="zoomdiv">
+                  <div class="block-border">
+                    <div class="block-content" style="padding-top: 2px;"> <a id="closezoom" class="float-right" style="margin-top: -9px;margin-right: 3px;"><img src="../images/icons/fugue/cross-circle.png"></a>
+                      <div class=""><a id="zoom-in"><img src="../images/icons/zoomplus.png"></a><a id="zoom-out"><img src="../images/icons/zoomminus.png"></a></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="stats"><a href="javascript:void(0)" onClick="ChangePageViewMode()" title="Page View">Page View</a></li>
+              <li class="print"><a href="#" title="Print" id="btnPrint" onClick="printDiv();">Print</a></li>
+              <li class="backup"><a href="#" title="Help" onClick="openModal(); return false;">Help</a></li>
+              <li class="fullscreen"><a href="#" class="requestfullscreen" title="Full Screen">Full Screen</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Header --> 
+    
+    <!-- End server status --> 
+    <!-- Main nav --> 
+    
+  </div>
+  <!-- End main nav -->
+  <div class="clear"></div>
+  <!-- Sub nav -->
+  <div id="sub-nav">
+    <div class="container_12">
+      <div class="">
+        <div class="grid_6">
+          <ul id="breadcrumb">
+            <li><a href="#" title="&nbsp;">General Knowledge</a></li>
+            <li><a href="#" title="Grade 1">Book 5</a></li>
+          </ul>
+        </div>
+        <div class="grid_6">
+			<ul id="status-infos">
+				<li> <a href="#" class="button"><img src="../images/icons/fugue/folder.png" width="16" height="16"> <strong>18</strong></a>
+				  <div id="messages-list" class="result-block"> <span class="arrow"><span></span></span>
+					<ul class="small-files-list icon-mail">
+					  <li> <a href="../Chapter_1/index.html"> <strong>Chapter </strong> 1<br>
+						<small> First among equals</small> </a> </li>
+					  <li> <a href="../Chapter_2/index.html"> <strong>Chapter </strong> 2<br>
+						<small> Fruity fun! </small> </a> </li>
+					  <li> <a href="../Chapter_3/index.html"> <strong>Chapter </strong> 3<br>
+						<small> A splash of water</small> </a> </li>
+					  <li> <a href="../Chapter_4/index.html"> <strong>Chapter </strong> 4<br>
+						<small> Gifts of nature </small> </a> </li>
+					  <li> <a href="../Chapter_5/index.html"> <strong>Chapter </strong> 5<br>
+						<small> All about animals </small> </a> </li>
+					  <li> <a href="../Chapter_6/index.html"> <strong>Chapter </strong> 6<br>
+						<small>The world around us</small> </a> </li>
+					  <li> <a href="../Chapter_7/index.html"> <strong>Chapter </strong> 7<br>
+						<small> Exploring Europe</small> </a> </li>
+					  <li> <a href="../Chapter_8/index.html"> <strong>Chapter </strong> 8<br>
+						<small> Interesting inventions </small> </a> </li>
+					  <li> <a href="../Chapter_9/index.html"> <strong>Chapter </strong> 9<br>
+						<small> Science struck </small> </a> </li>
+					  <li> <a href="../Chapter_10/index.html"> <strong>Chapter </strong> 10<br>
+						<small>Space quiz </small> </a> </li>
+					  <li> <a href="../Chapter_11/index.html"> <strong>Chapter </strong> 11<br>
+						<small> India's pride </small> </a> </li>
+					  <li> <a href="../Chapter_12/index.html"> <strong>Chapter </strong> 12<br>
+						<small> Business barons </small> </a> </li>
+					  <li> <a href="../Chapter_13/index.html"> <strong>Chapter </strong> 13<br>
+						<small> Amazing women </small> </a> </li>
+					  <li> <a href="../Chapter_14/index.html"> <strong>Chapter </strong> 14<br>
+						<small> Artists and their art </small> </a> </li>
+					  <li> <a href="../Chapter_15/index.html"> <strong>Chapter </strong> 15<br>
+						<small> Book worm</small> </a> </li>
+					  <li> <a href="../Chapter_16/index.html"> <strong>Chapter </strong> 16<br>
+						<small> Entertainment arena </small> </a> </li>
+					  <li> <a href="../Chapter_17/index.html"> <strong>Chapter </strong> 17<br>
+						<small> Sport fever</small> </a> </li>
+					  <li> <a href="../Chapter_18/index.html"> <strong>Chapter </strong> 18<br>
+						<small> Banking matters</small> </a> </li>
+					  <li> <a href="../Chapter_18/index.html#page1"> <strong>Activity 1</strong> <br>
+						<small> Making healthy food </small> </a> </li>
+					  <li> <a href="../Activity/index.html"> <strong>Activity 2</strong> <br>
+						<small> My city </small> </a> </li>
+						<li> <a href="../Activity/index.html"> <strong>Chapter </strong> 19<br>
+						  <small> Disasters and challenges</small> </a> </li>
+					  <li> <a href="../Chapter_19/index.html#page1"> <strong>Test Paper 1</strong> <br>
+						<small> </small> </a> </li>
+					  <li> <a href="../Testpaper/index.html"> <strong>Test Paper 2</strong> <br>
+						<small> </small> </a> </li>
+					  <li> <a href="../Testpaper/index.html"> <strong>Test Paper 3</strong> <br>
+						<small> </small> </a> </li>
+					  <li> <a href="../Testpaper/index.html#page1"> <strong>Test Paper 4</strong> <br>
+						<small> </small> </a> </li>
+					</ul>
+					<p id="messages-info" class="result-info"><a href="../Cover/index.html#page3">Go to Table of Contents &raquo;</a></p>
+				  </div>
+				</li>
+				<li>
+				  <form id="search-form" name="search-form">
+					<input type="text" name="s" id="SearchText" value="" autocomplete="off" style="position: relative;border: 1px solid #d5d8db;top: 2px;">
+					<input type="text" name="s" id="SearchCount" value="" autocomplete="off" class="button" disabled="">
+					<div class="tooltip" id="tooltip"> <span class="tooltiptext"> Not found!</span> </div>
+					<input type="submit" onClick="SearchTextFunc()" title="Search" class="nav-button" value="Search" id="searchtextbtn/">
+				  </form>
+				</li>
+				<li class="panel"><a href="#" class="button"></a></li>
+			  </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="popup1"><a href="../index.htm" id="resources" target="_blank">
+	<img src="../img/study.png" alt=""></a></div>
+</div>
+<div id="header-shadow"></div>
+<!-- End header --> 
+<!-- Always visible control bar --> 
+
+<!-- End control bar --> 
+<!-- Content -->
+<div class="fullscreen1">
+  <article class="container_12" id="book">
+    <div class="grid_10">
+      <div class="block-border" id="blockborder">
+        <div class="block-content">
+          <div class="flibook_own_wrapper">
+            <div class="fullscreenicon"><a href="#" class="requestfullscreen1" title="Full Screen"><img src="../images/fullscreen.png" style="display: none"></a><a href="#" title="Exit Full Screen" class="exitfullscreen" style=""><img src="../images/icons/fullscreen.png" /></a> </div>
+            <!--Book Pages Start -->
+            
+            <div class="book-wrapper">
+              <div class="bb-custom-wrapper scene">
+                <div id="bb-bookblock" name="bb-bookblock" class="bb-bookblock book" onClick="clickonCantainer(event)" onMouseUp="mouseupContainer(event)" onMouseDown="mousedownOnContainer(event)" onMouseMove="mousemoveOnContainer(event)"> 
+                   <!--Book Pages 1, 2 Start -->
+                  <div class="bb-item active page" id="page0"> 
+                    <!--left side of page-->
+                    <div class="bb-custom-side front first" onmouseenter="SetMarkedPageOne()">
+                     <div xmlns="http://www.w3.org/1999/xhtml" class="d_1_Chapter_11-12-13-1_1">
+			<div id="_idContainer000" class="Icon _idGenObjectStyle-Disabled">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/Army_Background.png" alt="" />
+			</div>
+			<div id="_idContainer001">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/Ashok_chakra.png" alt="" />
+			</div>
+			<div id="_idContainer002">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/India_strip.png" alt="" />
+			</div>
+			<div id="_idContainer003">
+				<div class="d_1_Chapter_11-12-13-1_2">
+					<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan000" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_20">India's </span><span id="_idTextSpan001" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_21">pride </span><span id="_idTextSpan002" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_22">is </span><span id="_idTextSpan003" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_23">without </span><span id="_idTextSpan004" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_24">doubt </span><span id="_idTextSpan005" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_25">its </span><span id="_idTextSpan006" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_26">defence </span><span id="_idTextSpan007" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_27">forces. </span><span id="_idTextSpan008" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_28">Let </span><span id="_idTextSpan009" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_29">us </span><span id="_idTextSpan010" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_30">find </span><span id="_idTextSpan011" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_31">out </span><span id="_idTextSpan012" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_32">more </span><span id="_idTextSpan013" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_33">about </span><span id="_idTextSpan014" class="Bold CharOverride-1 s_1_Chapter_11-12-13-1_34">them. </span></p>
+				</div>
+			</div>
+			<div id="_idContainer004" class="Basic-Text-Frame">
+				<div class="d_1_Chapter_11-12-13-1_3">
+					<p class="Body_CH ParaOverride-1"><span id="_idTextSpan015" class="CharOverride-2 s_1_Chapter_11-12-13-1_35">11. </span><span id="_idTextSpan016" class="CharOverride-2 s_1_Chapter_11-12-13-1_36">India</span><span id="_idTextSpan017" class="CharOverride-3 s_1_Chapter_11-12-13-1_37">ꞌ</span><span id="_idTextSpan018" class="CharOverride-2 s_1_Chapter_11-12-13-1_38">s </span><span id="_idTextSpan019" class="CharOverride-2 s_1_Chapter_11-12-13-1_39">pride</span><span id="_idTextSpan020" class="CharOverride-4 s_1_Chapter_11-12-13-1_40"> </span></p>
+				</div>
+			</div>
+			<div id="_idContainer005" class="Basic-Text-Frame">
+				<div class="d_1_Chapter_11-12-13-1_4">
+					<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan021" class="CharOverride-5 s_1_Chapter_11-12-13-1_41">There </span><span id="_idTextSpan022" class="CharOverride-5 s_1_Chapter_11-12-13-1_42">are </span><span id="_idTextSpan023" class="CharOverride-5 s_1_Chapter_11-12-13-1_43">three </span><span id="_idTextSpan024" class="CharOverride-5 s_1_Chapter_11-12-13-1_44">divisions </span><span id="_idTextSpan025" class="CharOverride-5 s_1_Chapter_11-12-13-1_45">of </span><span id="_idTextSpan026" class="CharOverride-5 s_1_Chapter_11-12-13-1_46">the </span><span id="_idTextSpan027" class="CharOverride-5 s_1_Chapter_11-12-13-1_47">Indian </span><span id="_idTextSpan028" class="CharOverride-5 s_1_Chapter_11-12-13-1_48">Defence </span><span id="_idTextSpan029" class="CharOverride-5 s_1_Chapter_11-12-13-1_49">forces—Army, </span><span id="_idTextSpan030" class="CharOverride-5 s_1_Chapter_11-12-13-1_50">Navy, </span><span id="_idTextSpan031" class="CharOverride-5 s_1_Chapter_11-12-13-1_51">and </span><span id="_idTextSpan032" class="CharOverride-5 s_1_Chapter_11-12-13-1_52">Air </span><span id="_idTextSpan033" class="CharOverride-5 s_1_Chapter_11-12-13-1_53">Force. </span><span id="_idTextSpan034" class="CharOverride-5 s_1_Chapter_11-12-13-1_54">The </span><span id="_idTextSpan035" class="CharOverride-5 s_1_Chapter_11-12-13-1_55">head </span><span id="_idTextSpan036" class="CharOverride-5 s_1_Chapter_11-12-13-1_56">of </span><span id="_idTextSpan037" class="CharOverride-5 s_1_Chapter_11-12-13-1_57">all </span><span id="_idTextSpan038" class="CharOverride-5 s_1_Chapter_11-12-13-1_58">the </span><span id="_idTextSpan039" class="CharOverride-5 s_1_Chapter_11-12-13-1_59">combined </span><span id="_idTextSpan040" class="CharOverride-5 s_1_Chapter_11-12-13-1_60">Defence </span><span id="_idTextSpan041" class="CharOverride-5 s_1_Chapter_11-12-13-1_61">forces </span><span id="_idTextSpan042" class="CharOverride-5 s_1_Chapter_11-12-13-1_62">is </span><span id="_idTextSpan043" class="CharOverride-5 s_1_Chapter_11-12-13-1_63">the </span><span id="_idTextSpan044" class="CharOverride-5 s_1_Chapter_11-12-13-1_64">President </span><span id="_idTextSpan045" class="CharOverride-5 s_1_Chapter_11-12-13-1_65">of </span><span id="_idTextSpan046" class="CharOverride-5 s_1_Chapter_11-12-13-1_66">India. </span></p>
+				</div>
+			</div>
+			<div id="_idContainer006" class="Basic-Text-Frame">
+				<div class="d_1_Chapter_11-12-13-1_5">
+					<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan047" class="CharOverride-5 s_1_Chapter_11-12-13-1_67">The </span><span id="_idTextSpan048" class="CharOverride-5 s_1_Chapter_11-12-13-1_68">ranks </span><span id="_idTextSpan049" class="CharOverride-5 s_1_Chapter_11-12-13-1_69">of </span><span id="_idTextSpan050" class="CharOverride-5 s_1_Chapter_11-12-13-1_70">the </span><span id="_idTextSpan051" class="CharOverride-5 s_1_Chapter_11-12-13-1_71">officers </span><span id="_idTextSpan052" class="CharOverride-5 s_1_Chapter_11-12-13-1_72">in </span><span id="_idTextSpan053" class="CharOverride-5 s_1_Chapter_11-12-13-1_73">all </span><span id="_idTextSpan054" class="CharOverride-5 s_1_Chapter_11-12-13-1_74">the </span><span id="_idTextSpan055" class="CharOverride-5 s_1_Chapter_11-12-13-1_75">three </span><span id="_idTextSpan056" class="CharOverride-5 s_1_Chapter_11-12-13-1_76">armed </span><span id="_idTextSpan057" class="CharOverride-5 s_1_Chapter_11-12-13-1_77">forces, </span><span id="_idTextSpan058" class="CharOverride-5 s_1_Chapter_11-12-13-1_78">in </span><span id="_idTextSpan059" class="CharOverride-5 s_1_Chapter_11-12-13-1_79">descending </span><span id="_idTextSpan060" class="CharOverride-5 s_1_Chapter_11-12-13-1_80">order </span><span id="_idTextSpan061" class="CharOverride-5 s_1_Chapter_11-12-13-1_81">are: </span></p>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan062" class="Bold CharOverride-6 s_1_Chapter_11-12-13-1_82">Indian </span><span id="_idTextSpan063" class="Bold CharOverride-6 s_1_Chapter_11-12-13-1_83">Army</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan064" class="Bold CharOverride-6 s_1_Chapter_11-12-13-1_84">Indian </span><span id="_idTextSpan065" class="Bold CharOverride-6 s_1_Chapter_11-12-13-1_85">Navy</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan066" class="Bold CharOverride-6 s_1_Chapter_11-12-13-1_86">Indian </span><span id="_idTextSpan067" class="Bold CharOverride-6 s_1_Chapter_11-12-13-1_87">Air </span><span id="_idTextSpan068" class="Bold CharOverride-6 s_1_Chapter_11-12-13-1_88">Force</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan069" class="CharOverride-5 s_1_Chapter_11-12-13-1_89">Field </span><span id="_idTextSpan070" class="CharOverride-5 s_1_Chapter_11-12-13-1_90">Marshal</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan071" class="CharOverride-5 s_1_Chapter_11-12-13-1_91">Admiral</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan072" class="CharOverride-5 s_1_Chapter_11-12-13-1_92">Air </span><span id="_idTextSpan073" class="CharOverride-5 s_1_Chapter_11-12-13-1_93">Chief </span><span id="_idTextSpan074" class="CharOverride-5 s_1_Chapter_11-12-13-1_94">Marshal</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan075" class="CharOverride-5 s_1_Chapter_11-12-13-1_95">General</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan076" class="CharOverride-5 s_1_Chapter_11-12-13-1_96">Vice </span><span id="_idTextSpan077" class="CharOverride-5 s_1_Chapter_11-12-13-1_97">Admiral</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan078" class="CharOverride-5 s_1_Chapter_11-12-13-1_98">Air </span><span id="_idTextSpan079" class="CharOverride-5 s_1_Chapter_11-12-13-1_99">Marshal</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan080" class="CharOverride-5 s_1_Chapter_11-12-13-1_100">Lieutenant </span><span id="_idTextSpan081" class="CharOverride-5 s_1_Chapter_11-12-13-1_101">General</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan082" class="CharOverride-5 s_1_Chapter_11-12-13-1_102">Rear </span><span id="_idTextSpan083" class="CharOverride-5 s_1_Chapter_11-12-13-1_103">Admiral</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan084" class="CharOverride-5 s_1_Chapter_11-12-13-1_104">Air </span><span id="_idTextSpan085" class="CharOverride-5 s_1_Chapter_11-12-13-1_105">Vice </span><span id="_idTextSpan086" class="CharOverride-5 s_1_Chapter_11-12-13-1_106">Marshal</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan087" class="CharOverride-5 s_1_Chapter_11-12-13-1_107">Major </span><span id="_idTextSpan088" class="CharOverride-5 s_1_Chapter_11-12-13-1_108">General</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan089" class="CharOverride-5 s_1_Chapter_11-12-13-1_109">Commodore </span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan090" class="CharOverride-5 s_1_Chapter_11-12-13-1_110">Air </span><span id="_idTextSpan091" class="CharOverride-5 s_1_Chapter_11-12-13-1_111">Commodore</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan092" class="CharOverride-5 s_1_Chapter_11-12-13-1_112">Brigadier</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan093" class="CharOverride-5 s_1_Chapter_11-12-13-1_113">Captain</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan094" class="CharOverride-5 s_1_Chapter_11-12-13-1_114">Group </span><span id="_idTextSpan095" class="CharOverride-5 s_1_Chapter_11-12-13-1_115">Captain</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan096" class="CharOverride-5 s_1_Chapter_11-12-13-1_116">Colonel</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan097" class="CharOverride-5 s_1_Chapter_11-12-13-1_117">Commander</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan098" class="CharOverride-5 s_1_Chapter_11-12-13-1_118">Wing </span><span id="_idTextSpan099" class="CharOverride-5 s_1_Chapter_11-12-13-1_119">Commander</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan100" class="CharOverride-5 s_1_Chapter_11-12-13-1_120">Lieutenant </span><span id="_idTextSpan101" class="CharOverride-5 s_1_Chapter_11-12-13-1_121">Colonel</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan102" class="CharOverride-5 s_1_Chapter_11-12-13-1_122">Lieutenant </span><span id="_idTextSpan103" class="CharOverride-5 s_1_Chapter_11-12-13-1_123">Commander</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan104" class="CharOverride-5 s_1_Chapter_11-12-13-1_124">Squadron </span><span id="_idTextSpan105" class="CharOverride-5 s_1_Chapter_11-12-13-1_125">Leader</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan106" class="CharOverride-5 s_1_Chapter_11-12-13-1_126">Major</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan107" class="CharOverride-5 s_1_Chapter_11-12-13-1_127">Lieutenant</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan108" class="CharOverride-5 s_1_Chapter_11-12-13-1_128">Flight </span><span id="_idTextSpan109" class="CharOverride-5 s_1_Chapter_11-12-13-1_129">Lieutenant</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan110" class="CharOverride-5 s_1_Chapter_11-12-13-1_130">Captain</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan111" class="CharOverride-5 s_1_Chapter_11-12-13-1_131">Sub </span><span id="_idTextSpan112" class="CharOverride-5 s_1_Chapter_11-12-13-1_132">Lieutenant</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan113" class="CharOverride-5 s_1_Chapter_11-12-13-1_133">Flying </span><span id="_idTextSpan114" class="CharOverride-5 s_1_Chapter_11-12-13-1_134">Officer</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan115" class="CharOverride-5 s_1_Chapter_11-12-13-1_135">Lieutenant</span></p>
+					</div>
+					<div>
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan116" class="CharOverride-5 s_1_Chapter_11-12-13-1_136">Midshipmen</span></p>
+					</div>
+				</div>
+			</div>
+			<div id="_idContainer009">
+				<div id="_idContainer007" class="Icon _idGenObjectStyle-Disabled">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/5.png" alt="" />
+				</div>
+				<div id="_idContainer008" class="Icon _idGenObjectStyle-Disabled">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/6.png" alt="" />
+				</div>
+			</div>
+			<div id="_idContainer012">
+				<div id="_idContainer010" class="Icon _idGenObjectStyle-Disabled">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/7.png" alt="" />
+				</div>
+				<div id="_idContainer011" class="Icon _idGenObjectStyle-Disabled">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/8.png" alt="" />
+				</div>
+			</div>
+			<div id="_idContainer015">
+				<div id="_idContainer013" class="Icon _idGenObjectStyle-Disabled">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/9.png" alt="" />
+				</div>
+				<div id="_idContainer014" class="Icon _idGenObjectStyle-Disabled">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/10.png" alt="" />
+				</div>
+			</div>
+			<div id="_idContainer016" class="Basic-Text-Frame">
+				<div class="d_1_Chapter_11-12-13-1_6">
+					<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan117" class="CharOverride-5 s_1_Chapter_11-12-13-1_137">The </span><span id="_idTextSpan118" class="CharOverride-5 s_1_Chapter_11-12-13-1_138">Indian </span><span id="_idTextSpan119" class="CharOverride-5 s_1_Chapter_11-12-13-1_139">army </span><span id="_idTextSpan120" class="CharOverride-5 s_1_Chapter_11-12-13-1_140">is </span><span id="_idTextSpan121" class="CharOverride-5 s_1_Chapter_11-12-13-1_141">the </span><span id="_idTextSpan122" class="CharOverride-5 s_1_Chapter_11-12-13-1_142">land-based </span><span id="_idTextSpan123" class="CharOverride-5 s_1_Chapter_11-12-13-1_143">branch </span><span id="_idTextSpan124" class="CharOverride-5 s_1_Chapter_11-12-13-1_144">of </span><span id="_idTextSpan125" class="CharOverride-5 s_1_Chapter_11-12-13-1_145">our </span><span id="_idTextSpan126" class="CharOverride-5 s_1_Chapter_11-12-13-1_146">defence </span><span id="_idTextSpan127" class="CharOverride-5 s_1_Chapter_11-12-13-1_147">services. </span></p>
+				</div>
+			</div>
+			<div id="_idContainer017" class="Basic-Text-Frame">
+				<div class="d_1_Chapter_11-12-13-1_7">
+					<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan128" class="CharOverride-5 s_1_Chapter_11-12-13-1_148">The </span><span id="_idTextSpan129" class="CharOverride-5 s_1_Chapter_11-12-13-1_149">Indian </span><span id="_idTextSpan130" class="CharOverride-5 s_1_Chapter_11-12-13-1_150">Navy </span><span id="_idTextSpan131" class="CharOverride-5 s_1_Chapter_11-12-13-1_151">is </span><span id="_idTextSpan132" class="CharOverride-5 s_1_Chapter_11-12-13-1_152">the </span><span id="_idTextSpan133" class="CharOverride-5 s_1_Chapter_11-12-13-1_153">water-based </span><span id="_idTextSpan134" class="CharOverride-5 s_1_Chapter_11-12-13-1_154">branch </span><span id="_idTextSpan135" class="CharOverride-5 s_1_Chapter_11-12-13-1_155">of </span><span id="_idTextSpan136" class="CharOverride-5 s_1_Chapter_11-12-13-1_156">our </span><span id="_idTextSpan137" class="CharOverride-5 s_1_Chapter_11-12-13-1_157">defence </span><span id="_idTextSpan138" class="CharOverride-5 s_1_Chapter_11-12-13-1_158">services. </span></p>
+				</div>
+			</div>
+			<div id="_idContainer018" class="Icon _idGenObjectStyle-Disabled hvr">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/Indian_Army-Rajput_regiment.png" alt="" />
+				<img src="../img_int/videoi.png" class="imgv40" alt="" />
+			</div>
+			<div id="_idContainer019" class="Icon _idGenObjectStyle-Disabled hvr">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/Vice_Admiral_Sunil_Lanba_takes_over_Western_Naval_Command_(04).png" alt="" />
+				<img src="../img_int/videoi.png" class="imgv40" alt="" />
+			</div>
+			<div id="_idContainer020" class="Icon _idGenObjectStyle-Disabled hvr">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/GOH_Indian_Air_Force.png" alt="" />
+				<img src="../img_int/videoi.png" class="imgv40" alt="" />
+			</div>
+			<div id="_idContainer021" class="Basic-Text-Frame">
+				<div class="d_1_Chapter_11-12-13-1_8">
+					<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan139" class="CharOverride-5 s_1_Chapter_11-12-13-1_159">The </span><span id="_idTextSpan140" class="CharOverride-5 s_1_Chapter_11-12-13-1_160">Indian </span><span id="_idTextSpan141" class="CharOverride-5 s_1_Chapter_11-12-13-1_161">Air </span><span id="_idTextSpan142" class="CharOverride-5 s_1_Chapter_11-12-13-1_162">Force </span><span id="_idTextSpan143" class="CharOverride-5 s_1_Chapter_11-12-13-1_163">(IAF) </span><span id="_idTextSpan144" class="CharOverride-5 s_1_Chapter_11-12-13-1_164">is </span><span id="_idTextSpan145" class="CharOverride-5 s_1_Chapter_11-12-13-1_165">the </span><span id="_idTextSpan146" class="CharOverride-5 s_1_Chapter_11-12-13-1_166">air-based </span><span id="_idTextSpan147" class="CharOverride-5 s_1_Chapter_11-12-13-1_167">branch </span><span id="_idTextSpan148" class="CharOverride-5 s_1_Chapter_11-12-13-1_168">of </span><span id="_idTextSpan149" class="CharOverride-5 s_1_Chapter_11-12-13-1_169">our </span><span id="_idTextSpan150" class="CharOverride-5 s_1_Chapter_11-12-13-1_170">defence </span><span id="_idTextSpan151" class="CharOverride-5 s_1_Chapter_11-12-13-1_171">services. </span></p>
+				</div>
+			</div>
+			<div id="_idContainer022">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/Boy_with_flag.png" alt="" />
+			</div>
+			<div id="_idContainer023" class="Icon _idGenObjectStyle-Disabled">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/14.png" alt="" />
+			</div>
+			<div id="_idContainer024">
+				<div class="d_1_Chapter_11-12-13-1_9">
+					<p class="ParaOverride-1"><span id="_idTextSpan152" class="CharOverride-7 s_1_Chapter_11-12-13-1_172">40</span></p>
+				</div>
+			</div>
+		</div>
+                    </div>
+                    
+                    <!--right side of page-->
+                    <div class="bb-custom-side second back" onmouseenter="SetMarkedPageSecond()">
+						
+                      
+                      
+                      
+                      
+                      <div xmlns="http://www.w3.org/1999/xhtml" class="d_1_Chapter_11-12-13-1_10 secondsub">
+			<div id="_idContainer025" class="Icon _idGenObjectStyle-Disabled">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/Army_Background.png" alt="" />
+			</div>
+			<div id="_idContainer028">
+				<div id="_idContainer026" class="Icon _idGenObjectStyle-Disabled">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/16.png" alt="" />
+				</div>
+				<div id="_idContainer027" class="Icon _idGenObjectStyle-Disabled">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/17.png" alt="" />
+				</div>
+			</div>
+			<div id="_idContainer029" class="Icon _idGenObjectStyle-Disabled">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/18.png" alt="" />
+			</div>
+			<div id="_idContainer030">
+				<div class="d_1_Chapter_11-12-13-1_11">
+					<p class="Body_H1 ParaOverride-1"><span id="_idTextSpan153" class="ABC CharOverride-8 s_1_Chapter_11-12-13-1_173">A.</span><span id="_idTextSpan154" class="CharOverride-1 s_1_Chapter_11-12-13-1_174">	</span><span id="_idTextSpan155" class="CharOverride-1 s_1_Chapter_11-12-13-1_175">Fill </span><span id="_idTextSpan156" class="CharOverride-1 s_1_Chapter_11-12-13-1_176">in </span><span id="_idTextSpan157" class="CharOverride-1 s_1_Chapter_11-12-13-1_177">the </span><span id="_idTextSpan158" class="CharOverride-1 s_1_Chapter_11-12-13-1_178">blanks:</span></p>
+				</div>
+			</div>
+			<div id="_idContainer031" class="Basic-Text-Frame">
+				<div class="d_1_Chapter_11-12-13-1_12">
+					<p class="Body_BN ParaOverride-1"><span id="_idTextSpan159" class="CharOverride-5 s_1_Chapter_11-12-13-1_179">The </span><span id="_idTextSpan160" class="CharOverride-5 s_1_Chapter_11-12-13-1_180">current </span><span id="_idTextSpan161" class="CharOverride-5 s_1_Chapter_11-12-13-1_181">Chief </span><span id="_idTextSpan162" class="CharOverride-5 s_1_Chapter_11-12-13-1_182">of </span><span id="_idTextSpan163" class="CharOverride-5 s_1_Chapter_11-12-13-1_183">the </span><span id="_idTextSpan164" class="CharOverride-5 s_1_Chapter_11-12-13-1_184">Army </span><span id="_idTextSpan165" class="CharOverride-5 s_1_Chapter_11-12-13-1_185">Staff </span><span id="_idTextSpan166" class="CharOverride-5 s_1_Chapter_11-12-13-1_186">is </span><span id="_idTextSpan167" class="Line CharOverride-5 s_1_Chapter_11-12-13-1_187"> </span><span id="_idTextSpan168" class="CharOverride-5 s_1_Chapter_11-12-13-1_188">.</span></p>
+					<p class="Body_BN ParaOverride-1"><span id="_idTextSpan169" class="CharOverride-5 s_1_Chapter_11-12-13-1_189">The </span><span id="_idTextSpan170" class="CharOverride-5 s_1_Chapter_11-12-13-1_190">current </span><span id="_idTextSpan171" class="CharOverride-5 s_1_Chapter_11-12-13-1_191">Chief </span><span id="_idTextSpan172" class="CharOverride-5 s_1_Chapter_11-12-13-1_192">of </span><span id="_idTextSpan173" class="CharOverride-5 s_1_Chapter_11-12-13-1_193">the </span><span id="_idTextSpan174" class="CharOverride-5 s_1_Chapter_11-12-13-1_194">Naval </span><span id="_idTextSpan175" class="CharOverride-5 s_1_Chapter_11-12-13-1_195">Staff </span><span id="_idTextSpan176" class="CharOverride-5 s_1_Chapter_11-12-13-1_196">is </span><span id="_idTextSpan177" class="Line CharOverride-5 s_1_Chapter_11-12-13-1_197"> </span><span id="_idTextSpan178" class="CharOverride-5 s_1_Chapter_11-12-13-1_198">.</span></p>
+					<p class="Body_BN ParaOverride-1"><span id="_idTextSpan179" class="CharOverride-5 s_1_Chapter_11-12-13-1_199">The </span><span id="_idTextSpan180" class="CharOverride-5 s_1_Chapter_11-12-13-1_200">current </span><span id="_idTextSpan181" class="CharOverride-5 s_1_Chapter_11-12-13-1_201">Chief </span><span id="_idTextSpan182" class="CharOverride-5 s_1_Chapter_11-12-13-1_202">of </span><span id="_idTextSpan183" class="CharOverride-5 s_1_Chapter_11-12-13-1_203">the </span><span id="_idTextSpan184" class="CharOverride-5 s_1_Chapter_11-12-13-1_204">Air </span><span id="_idTextSpan185" class="CharOverride-5 s_1_Chapter_11-12-13-1_205">Force </span><span id="_idTextSpan186" class="CharOverride-5 s_1_Chapter_11-12-13-1_206">Staff </span><span id="_idTextSpan187" class="CharOverride-5 s_1_Chapter_11-12-13-1_207">is </span><span id="_idTextSpan188" class="Line CharOverride-5 s_1_Chapter_11-12-13-1_208"> </span><span id="_idTextSpan189" class="CharOverride-5 s_1_Chapter_11-12-13-1_209">.</span></p>
+				</div>
+			</div>
+			<div id="_idContainer041">
+				<div id="_idContainer032" class="_idGenObjectStyle-Disabled">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/21.png" alt="" />
+				</div>
+				<div id="_idContainer035">
+					<div id="_idContainer033" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/22.png" alt="" />
+					</div>
+					<div id="_idContainer034" class="Basic-Text-Frame">
+						<div class="d_1_Chapter_11-12-13-1_13">
+							<p class="Body_Rubric_Did-you-know ParaOverride-1"><span id="_idTextSpan190" class="CharOverride-9 s_1_Chapter_11-12-13-1_210">Did </span><span id="_idTextSpan191" class="CharOverride-9 s_1_Chapter_11-12-13-1_211">you </span><span id="_idTextSpan192" class="CharOverride-9 s_1_Chapter_11-12-13-1_212">know</span></p>
+						</div>
+					</div>
+				</div>
+				<div id="_idContainer036">
+					<div class="d_1_Chapter_11-12-13-1_14">
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan193" class="CharOverride-5 s_1_Chapter_11-12-13-1_213">'Operation </span><span id="_idTextSpan194" class="CharOverride-5 s_1_Chapter_11-12-13-1_214">Rahat' </span><span id="_idTextSpan195" class="CharOverride-5 s_1_Chapter_11-12-13-1_215">was </span><span id="_idTextSpan196" class="CharOverride-5 s_1_Chapter_11-12-13-1_216">one </span><span id="_idTextSpan197" class="CharOverride-5 s_1_Chapter_11-12-13-1_217">of </span><span id="_idTextSpan198" class="CharOverride-5 s_1_Chapter_11-12-13-1_218">the </span><span id="_idTextSpan199" class="CharOverride-5 s_1_Chapter_11-12-13-1_219">biggest </span><span id="_idTextSpan200" class="CharOverride-5 s_1_Chapter_11-12-13-1_220">civilian </span><span id="_idTextSpan201" class="CharOverride-5 s_1_Chapter_11-12-13-1_221">rescue </span><span id="_idTextSpan202" class="CharOverride-5 s_1_Chapter_11-12-13-1_222">operations </span><span id="_idTextSpan203" class="CharOverride-5 s_1_Chapter_11-12-13-1_223">ever </span><span id="_idTextSpan204" class="CharOverride-5 s_1_Chapter_11-12-13-1_224">carried </span><span id="_idTextSpan205" class="CharOverride-5 s_1_Chapter_11-12-13-1_225">out </span><span id="_idTextSpan206" class="CharOverride-5 s_1_Chapter_11-12-13-1_226">in </span><span id="_idTextSpan207" class="CharOverride-5 s_1_Chapter_11-12-13-1_227">the </span><span id="_idTextSpan208" class="CharOverride-5 s_1_Chapter_11-12-13-1_228">world. </span><span id="_idTextSpan209" class="CharOverride-5 s_1_Chapter_11-12-13-1_229">It </span><span id="_idTextSpan210" class="CharOverride-5 s_1_Chapter_11-12-13-1_230">was </span><span id="_idTextSpan211" class="CharOverride-5 s_1_Chapter_11-12-13-1_231">carried </span><span id="_idTextSpan212" class="CharOverride-5 s_1_Chapter_11-12-13-1_232">out </span><span id="_idTextSpan213" class="CharOverride-5 s_1_Chapter_11-12-13-1_233">by </span><span id="_idTextSpan214" class="CharOverride-5 s_1_Chapter_11-12-13-1_234">the </span><span id="_idTextSpan215" class="CharOverride-5 s_1_Chapter_11-12-13-1_235">Indian </span><span id="_idTextSpan216" class="CharOverride-5 s_1_Chapter_11-12-13-1_236">Air </span><span id="_idTextSpan217" class="CharOverride-5 s_1_Chapter_11-12-13-1_237">Force </span><span id="_idTextSpan218" class="CharOverride-5 s_1_Chapter_11-12-13-1_238">when </span><span id="_idTextSpan219" class="CharOverride-5 s_1_Chapter_11-12-13-1_239">they </span><span id="_idTextSpan220" class="CharOverride-5 s_1_Chapter_11-12-13-1_240">rescued </span><span id="_idTextSpan221" class="CharOverride-5 s_1_Chapter_11-12-13-1_241">civilians </span><span id="_idTextSpan222" class="CharOverride-5 s_1_Chapter_11-12-13-1_242">from </span><span id="_idTextSpan223" class="CharOverride-5 s_1_Chapter_11-12-13-1_243">the </span><span id="_idTextSpan224" class="CharOverride-5 s_1_Chapter_11-12-13-1_244">Uttarakhand </span><span id="_idTextSpan225" class="CharOverride-5 s_1_Chapter_11-12-13-1_245">floods </span><span id="_idTextSpan226" class="CharOverride-5 s_1_Chapter_11-12-13-1_246">in </span><span id="_idTextSpan227" class="CharOverride-5 s_1_Chapter_11-12-13-1_247">2013.</span></p>
+					</div>
+				</div>
+				<div id="_idContainer037" class="Icon">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/25.png" alt="" />
+				</div>
+				<div id="_idContainer040">
+					<div id="_idContainer038" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/26.png" alt="" />
+					</div>
+					<div id="_idContainer039" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/27.png" alt="" />
+					</div>
+				</div>
+			</div>
+			<div id="_idContainer042" class="Basic-Text-Frame">
+				<div class="d_1_Chapter_11-12-13-1_15">
+					<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan228" class="CharOverride-5 s_1_Chapter_11-12-13-1_248">The </span><span id="_idTextSpan229" class="CharOverride-5 s_1_Chapter_11-12-13-1_249">Republic </span><span id="_idTextSpan230" class="CharOverride-5 s_1_Chapter_11-12-13-1_250">Day </span><span id="_idTextSpan231" class="CharOverride-5 s_1_Chapter_11-12-13-1_251">parade </span><span id="_idTextSpan232" class="CharOverride-5 s_1_Chapter_11-12-13-1_252">is </span><span id="_idTextSpan233" class="CharOverride-5 s_1_Chapter_11-12-13-1_253">held </span><span id="_idTextSpan234" class="CharOverride-5 s_1_Chapter_11-12-13-1_254">every </span><span id="_idTextSpan235" class="CharOverride-5 s_1_Chapter_11-12-13-1_255">year </span><span id="_idTextSpan236" class="CharOverride-5 s_1_Chapter_11-12-13-1_256">on </span><span id="_idTextSpan237" class="CharOverride-5 s_1_Chapter_11-12-13-1_257">26th </span><span id="_idTextSpan238" class="CharOverride-5 s_1_Chapter_11-12-13-1_258">January </span><span id="_idTextSpan239" class="CharOverride-5 s_1_Chapter_11-12-13-1_259">at </span><span id="_idTextSpan240" class="CharOverride-5 s_1_Chapter_11-12-13-1_260">Rajpath, </span><span id="_idTextSpan241" class="CharOverride-5 s_1_Chapter_11-12-13-1_261">New </span><span id="_idTextSpan242" class="CharOverride-5 s_1_Chapter_11-12-13-1_262">Delhi. </span><span id="_idTextSpan243" class="CharOverride-5 s_1_Chapter_11-12-13-1_263">It </span><span id="_idTextSpan244" class="CharOverride-5 s_1_Chapter_11-12-13-1_264">is </span><span id="_idTextSpan245" class="CharOverride-5 s_1_Chapter_11-12-13-1_265">a </span><span id="_idTextSpan246" class="CharOverride-5 s_1_Chapter_11-12-13-1_266">three-day </span><span id="_idTextSpan247" class="CharOverride-5 s_1_Chapter_11-12-13-1_267">celebration </span><span id="_idTextSpan248" class="CharOverride-5 s_1_Chapter_11-12-13-1_268">where </span><span id="_idTextSpan249" class="CharOverride-5 s_1_Chapter_11-12-13-1_269">the </span><span id="_idTextSpan250" class="CharOverride-5 s_1_Chapter_11-12-13-1_270">Indian </span><span id="_idTextSpan251" class="CharOverride-5 s_1_Chapter_11-12-13-1_271">defence </span><span id="_idTextSpan252" class="CharOverride-5 s_1_Chapter_11-12-13-1_272">capabilities </span><span id="_idTextSpan253" class="CharOverride-5 s_1_Chapter_11-12-13-1_273">are </span><span id="_idTextSpan254" class="CharOverride-5 s_1_Chapter_11-12-13-1_274">presented. </span><span id="_idTextSpan255" class="CharOverride-5 s_1_Chapter_11-12-13-1_275">A </span><span id="_idTextSpan256" class="CharOverride-5 s_1_Chapter_11-12-13-1_276">foreign </span><span id="_idTextSpan257" class="CharOverride-5 s_1_Chapter_11-12-13-1_277">dignitary, </span><span id="_idTextSpan258" class="CharOverride-5 s_1_Chapter_11-12-13-1_278">who </span><span id="_idTextSpan259" class="CharOverride-5 s_1_Chapter_11-12-13-1_279">is </span><span id="_idTextSpan260" class="CharOverride-5 s_1_Chapter_11-12-13-1_280">generally </span><span id="_idTextSpan261" class="CharOverride-5 s_1_Chapter_11-12-13-1_281">a </span><span id="_idTextSpan262" class="CharOverride-5 s_1_Chapter_11-12-13-1_282">head </span><span id="_idTextSpan263" class="CharOverride-5 s_1_Chapter_11-12-13-1_283">of </span><span id="_idTextSpan264" class="CharOverride-5 s_1_Chapter_11-12-13-1_284">a </span><span id="_idTextSpan265" class="CharOverride-5 s_1_Chapter_11-12-13-1_285">country, </span><span id="_idTextSpan266" class="CharOverride-5 s_1_Chapter_11-12-13-1_286">is </span><span id="_idTextSpan267" class="CharOverride-5 s_1_Chapter_11-12-13-1_287">invited </span><span id="_idTextSpan268" class="CharOverride-5 s_1_Chapter_11-12-13-1_288">as </span><span id="_idTextSpan269" class="CharOverride-5 s_1_Chapter_11-12-13-1_289">the </span><span id="_idTextSpan270" class="CharOverride-5 s_1_Chapter_11-12-13-1_290">chief </span><span id="_idTextSpan271" class="CharOverride-5 s_1_Chapter_11-12-13-1_291">guest. </span><span id="_idTextSpan272" class="CharOverride-5 s_1_Chapter_11-12-13-1_292">The </span><span id="_idTextSpan273" class="CharOverride-5 s_1_Chapter_11-12-13-1_293">celebrations </span><span id="_idTextSpan274" class="CharOverride-5 s_1_Chapter_11-12-13-1_294">end </span><span id="_idTextSpan275" class="CharOverride-5 s_1_Chapter_11-12-13-1_295">with </span><span id="_idTextSpan276" class="CharOverride-5 s_1_Chapter_11-12-13-1_296">the </span><span id="_idTextSpan277" class="CharOverride-5 s_1_Chapter_11-12-13-1_297">'Beating </span><span id="_idTextSpan278" class="CharOverride-5 s_1_Chapter_11-12-13-1_298">Retreat' </span><span id="_idTextSpan279" class="CharOverride-5 s_1_Chapter_11-12-13-1_299">ceremony </span><span id="_idTextSpan280" class="CharOverride-5 s_1_Chapter_11-12-13-1_300">held </span><span id="_idTextSpan281" class="CharOverride-5 s_1_Chapter_11-12-13-1_301">at </span><span id="_idTextSpan282" class="CharOverride-5 s_1_Chapter_11-12-13-1_302">Vijay </span><span id="_idTextSpan283" class="CharOverride-5 s_1_Chapter_11-12-13-1_303">Chowk, </span><span id="_idTextSpan284" class="CharOverride-5 s_1_Chapter_11-12-13-1_304">New </span><span id="_idTextSpan285" class="CharOverride-5 s_1_Chapter_11-12-13-1_305">Delhi </span><span id="_idTextSpan286" class="CharOverride-5 s_1_Chapter_11-12-13-1_306">on </span><span id="_idTextSpan287" class="CharOverride-5 s_1_Chapter_11-12-13-1_307">29th </span><span id="_idTextSpan288" class="CharOverride-5 s_1_Chapter_11-12-13-1_308">January, </span><span id="_idTextSpan289" class="CharOverride-5 s_1_Chapter_11-12-13-1_309">where </span><span id="_idTextSpan290" class="CharOverride-5 s_1_Chapter_11-12-13-1_310">the </span><span id="_idTextSpan291" class="CharOverride-5 s_1_Chapter_11-12-13-1_311">bands </span><span id="_idTextSpan292" class="CharOverride-5 s_1_Chapter_11-12-13-1_312">of </span><span id="_idTextSpan293" class="CharOverride-5 s_1_Chapter_11-12-13-1_313">the </span><span id="_idTextSpan294" class="CharOverride-5 s_1_Chapter_11-12-13-1_314">defence </span><span id="_idTextSpan295" class="CharOverride-5 s_1_Chapter_11-12-13-1_315">forces </span><span id="_idTextSpan296" class="CharOverride-5 s_1_Chapter_11-12-13-1_316">play </span><span id="_idTextSpan297" class="CharOverride-5 s_1_Chapter_11-12-13-1_317">together. </span><span id="_idTextSpan298" class="CharOverride-5 s_1_Chapter_11-12-13-1_318">It </span><span id="_idTextSpan299" class="CharOverride-5 s_1_Chapter_11-12-13-1_319">is </span><span id="_idTextSpan300" class="CharOverride-5 s_1_Chapter_11-12-13-1_320">a </span><span id="_idTextSpan301" class="CharOverride-5 s_1_Chapter_11-12-13-1_321">sight </span><span id="_idTextSpan302" class="CharOverride-5 s_1_Chapter_11-12-13-1_322">worth </span><span id="_idTextSpan303" class="CharOverride-5 s_1_Chapter_11-12-13-1_323">seeing!</span></p>
+				</div>
+			</div>
+			<div id="_idContainer043" class="Basic-Text-Frame">
+				<div class="d_1_Chapter_11-12-13-1_16">
+					<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan304" class="CharOverride-5 s_1_Chapter_11-12-13-1_324">There </span><span id="_idTextSpan305" class="CharOverride-5 s_1_Chapter_11-12-13-1_325">are </span><span id="_idTextSpan306" class="CharOverride-5 s_1_Chapter_11-12-13-1_326">several </span><span id="_idTextSpan307" class="CharOverride-5 s_1_Chapter_11-12-13-1_327">divisions </span><span id="_idTextSpan308" class="CharOverride-5 s_1_Chapter_11-12-13-1_328">of </span><span id="_idTextSpan309" class="CharOverride-5 s_1_Chapter_11-12-13-1_329">the </span><span id="_idTextSpan310" class="CharOverride-5 s_1_Chapter_11-12-13-1_330">Central </span><span id="_idTextSpan311" class="CharOverride-5 s_1_Chapter_11-12-13-1_331">Armed </span><span id="_idTextSpan312" class="CharOverride-5 s_1_Chapter_11-12-13-1_332">Police </span><span id="_idTextSpan313" class="CharOverride-5 s_1_Chapter_11-12-13-1_333">Force </span><span id="_idTextSpan314" class="CharOverride-5 s_1_Chapter_11-12-13-1_334">(CAPF) </span><span id="_idTextSpan315" class="CharOverride-5 s_1_Chapter_11-12-13-1_335">who </span><span id="_idTextSpan316" class="CharOverride-5 s_1_Chapter_11-12-13-1_336">deal </span><span id="_idTextSpan317" class="CharOverride-5 s_1_Chapter_11-12-13-1_337">with </span><span id="_idTextSpan318" class="CharOverride-5 s_1_Chapter_11-12-13-1_338">internal </span><span id="_idTextSpan319" class="CharOverride-5 s_1_Chapter_11-12-13-1_339">threats. </span><span id="_idTextSpan320" class="CharOverride-5 s_1_Chapter_11-12-13-1_340">These </span><span id="_idTextSpan321" class="CharOverride-5 s_1_Chapter_11-12-13-1_341">are: </span></p>
+					<p class="Body_Body-bolet ParaOverride-1"><span id="_idTextSpan322" class="CharOverride-5 s_1_Chapter_11-12-13-1_342">Assam </span><span id="_idTextSpan323" class="CharOverride-5 s_1_Chapter_11-12-13-1_343">Rifles </span><span id="_idTextSpan324" class="CharOverride-5 s_1_Chapter_11-12-13-1_344">(AR)</span></p>
+					<p class="Body_Body-bolet ParaOverride-1"><span id="_idTextSpan325" class="CharOverride-5 s_1_Chapter_11-12-13-1_345">Border </span><span id="_idTextSpan326" class="CharOverride-5 s_1_Chapter_11-12-13-1_346">Security </span><span id="_idTextSpan327" class="CharOverride-5 s_1_Chapter_11-12-13-1_347">Force </span><span id="_idTextSpan328" class="CharOverride-5 s_1_Chapter_11-12-13-1_348">(BSF)</span></p>
+					<p class="Body_Body-bolet ParaOverride-1"><span id="_idTextSpan329" class="CharOverride-5 s_1_Chapter_11-12-13-1_349">Central </span><span id="_idTextSpan330" class="CharOverride-5 s_1_Chapter_11-12-13-1_350">Industrial </span><span id="_idTextSpan331" class="CharOverride-5 s_1_Chapter_11-12-13-1_351">Security </span><span id="_idTextSpan332" class="CharOverride-5 s_1_Chapter_11-12-13-1_352">Force </span><span id="_idTextSpan333" class="CharOverride-5 s_1_Chapter_11-12-13-1_353">(CISF)</span></p>
+					<p class="Body_Body-bolet ParaOverride-1"><span id="_idTextSpan334" class="CharOverride-5 s_1_Chapter_11-12-13-1_354">Central </span><span id="_idTextSpan335" class="CharOverride-5 s_1_Chapter_11-12-13-1_355">Reserve </span><span id="_idTextSpan336" class="CharOverride-5 s_1_Chapter_11-12-13-1_356">Police </span><span id="_idTextSpan337" class="CharOverride-5 s_1_Chapter_11-12-13-1_357">Force </span><span id="_idTextSpan338" class="CharOverride-5 s_1_Chapter_11-12-13-1_358">(CRPF)</span></p>
+					<p class="Body_Body-bolet ParaOverride-1"><span id="_idTextSpan339" class="CharOverride-5 s_1_Chapter_11-12-13-1_359">Indo </span><span id="_idTextSpan340" class="CharOverride-5 s_1_Chapter_11-12-13-1_360">Tibetan </span><span id="_idTextSpan341" class="CharOverride-5 s_1_Chapter_11-12-13-1_361">Border </span><span id="_idTextSpan342" class="CharOverride-5 s_1_Chapter_11-12-13-1_362">Police </span><span id="_idTextSpan343" class="CharOverride-5 s_1_Chapter_11-12-13-1_363">(ITBP)</span></p>
+					<p class="Body_Body-bolet ParaOverride-1"><span id="_idTextSpan344" class="CharOverride-5 s_1_Chapter_11-12-13-1_364">National </span><span id="_idTextSpan345" class="CharOverride-5 s_1_Chapter_11-12-13-1_365">Security </span><span id="_idTextSpan346" class="CharOverride-5 s_1_Chapter_11-12-13-1_366">Guard </span><span id="_idTextSpan347" class="CharOverride-5 s_1_Chapter_11-12-13-1_367">(NSG)</span></p>
+					<p class="Body_Body-bolet ParaOverride-1"><span id="_idTextSpan348" class="CharOverride-5 s_1_Chapter_11-12-13-1_368">Sashastra </span><span id="_idTextSpan349" class="CharOverride-5 s_1_Chapter_11-12-13-1_369">Seema </span><span id="_idTextSpan350" class="CharOverride-5 s_1_Chapter_11-12-13-1_370">Bal </span><span id="_idTextSpan351" class="CharOverride-5 s_1_Chapter_11-12-13-1_371">(SSB)</span></p>
+				</div>
+			</div>
+			<div id="_idContainer044" class="_idGenObjectStyle-Disabled hvr">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/shutterstock_8796289.png" alt="" />
+				<img src="../img_int/videoi.png" class="imgv25" alt="" />
+			</div>
+			<div id="_idContainer045" class="_idGenObjectStyle-Disabled">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/Assam_Rifles_google.png" alt="" />
+			</div>
+			<div id="_idContainer046" class="Icon _idGenObjectStyle-Disabled">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/14.png" alt="" />
+			</div>
+			<div id="_idContainer047">
+				<div class="d_1_Chapter_11-12-13-1_17">
+					<p class="ParaOverride-1"><span id="_idTextSpan352" class="CharOverride-7 s_1_Chapter_11-12-13-1_372">41</span></p>
+				</div>
+			</div>
+			<div id="_idContainer048">
+				<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/BSF_Logo.svg.png" alt="" />
+			</div>
+			<div id="_idContainer070">
+				<div id="_idContainer064">
+					<div id="_idContainer049" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/32.png" alt="" />
+					</div>
+					<div id="_idContainer050" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/33.png" alt="" />
+					</div>
+					<div id="_idContainer051" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/34.png" alt="" />
+					</div>
+					<div id="_idContainer052" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/35.png" alt="" />
+					</div>
+					<div id="_idContainer053" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/36.png" alt="" />
+					</div>
+					<div id="_idContainer054" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/37.png" alt="" />
+					</div>
+					<div id="_idContainer055" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/38.png" alt="" />
+					</div>
+					<div id="_idContainer056" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/39.png" alt="" />
+					</div>
+					<div id="_idContainer057" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/40.png" alt="" />
+					</div>
+					<div id="_idContainer058" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/41.png" alt="" />
+					</div>
+					<div id="_idContainer059" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/42.png" alt="" />
+					</div>
+					<div id="_idContainer060" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/43.png" alt="" />
+					</div>
+					<div id="_idContainer061" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/44.png" alt="" />
+					</div>
+					<div id="_idContainer062" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/45.png" alt="" />
+					</div>
+					<div id="_idContainer063" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/46.png" alt="" />
+					</div>
+				</div>
+				<div id="_idContainer067">
+					<div id="_idContainer065" class="Basic-Text-Frame">
+						<div class="d_1_Chapter_11-12-13-1_18">
+							<p class="Body_Rubric_Let's-Think- ParaOverride-1"><span id="_idTextSpan353" class="CharOverride-10 s_1_Chapter_11-12-13-1_373">Let's </span><span id="_idTextSpan354" class="CharOverride-10 s_1_Chapter_11-12-13-1_374">Think!</span></p>
+						</div>
+					</div>
+					<div id="_idContainer066" class="_idGenObjectStyle-Disabled">
+						<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/48.png" alt="" />
+					</div>
+				</div>
+				<div id="_idContainer068" class="Icon _idGenObjectStyle-Disabled">
+					<img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../chap11-12-13_assets/image/bulb_2.png" alt="" />
+				</div>
+				<div id="_idContainer069">
+					<div class="d_1_Chapter_11-12-13-1_19">
+						<p class="Body_Body- ParaOverride-1"><span id="_idTextSpan355" class="CharOverride-5 s_1_Chapter_11-12-13-1_375">How </span><span id="_idTextSpan356" class="CharOverride-5 s_1_Chapter_11-12-13-1_376">can </span><span id="_idTextSpan357" class="CharOverride-5 s_1_Chapter_11-12-13-1_377">we </span><span id="_idTextSpan358" class="CharOverride-5 s_1_Chapter_11-12-13-1_378">show </span><span id="_idTextSpan359" class="CharOverride-5 s_1_Chapter_11-12-13-1_379">respect </span><span id="_idTextSpan360" class="CharOverride-5 s_1_Chapter_11-12-13-1_380">towards </span><span id="_idTextSpan361" class="CharOverride-5 s_1_Chapter_11-12-13-1_381">our </span><span id="_idTextSpan362" class="CharOverride-5 s_1_Chapter_11-12-13-1_382">brave </span><span id="_idTextSpan363" class="CharOverride-5 s_1_Chapter_11-12-13-1_383">soldiers?</span></p>
+					</div>
+				</div>
+			</div>
+<div class="page41_position1"><p style="    padding: 0px 2px 2px 2px;width: 184px;" class="inputline_41 wd110 p41" onfocus="style.color='black'" id="set41_con1" data-val="General Manoj Mukund Naravane" contenteditable="true"></p></div>
+<div class="page41_position2"><p style="    padding: 0px 2px 2px 2px;" class="inputline_41 wd165 p41" onfocus="style.color='black'" id="set41_con2" data-val="Admiral R. Hari Kumar" contenteditable="true"></p></div>
+<div class="page41_position3"><p style="    padding: 0px 2px 2px 2px;" class="inputline_41s wd165 p41" onfocus="style.color='black'" id="set41_con3" data-val="Air Chief Marshal Vivek Ram Chaudhari" contenteditable="true"></p></div>
+
+<div class="page41_btn1"><input id="submit01" type="button" value="Show Answers" /></div>
+<div class="page41_btn2"><input id="submit02" type="button" value="Validate" /></div>
+
+<div id="pops1" class="pops">
+<span class="b-close"><span><img class="close" src="../img_int/close.png" alt="" /></span></span>
+<div class="popup">
+<div class="for_video">
+<video id="video1" controls="true">
+<source src="../video/page40/Pic_1.mp4" type="video/mp4" />
+Your browser doesn't support the HTML video tag.
+</video>
+</div>
+</div>
+</div>
+
+<div id="pops2" class="pops">
+<span class="b-close"><span><img class="close" src="../img_int/close.png" alt="" /></span></span>
+<div class="popup">
+<div class="for_video">
+<video id="video2" controls="true">
+<source src="../video/page40/Pic_2.mp4" type="video/mp4" />
+Your browser doesn't support the HTML video tag.
+</video>
+</div>
+</div>
+</div>
+
+<div id="pops3" class="pops">
+<span class="b-close"><span><img class="close" src="../img_int/close.png" alt="" /></span></span>
+<div class="popup">
+<div class="for_video">
+<video id="video3" controls="true">
+<source src="../video/page40/Pic_3.mp4" type="video/mp4" />
+Your browser doesn't support the HTML video tag.
+</video>
+</div>
+</div>
+</div>
+
+<div id="pops4" class="pops">
+<span class="b-close"><span><img class="close" src="../img_int/close.png" alt="" /></span></span>
+<div class="popup">
+<div class="for_video">
+<video id="video4" controls="true">
+<source src="../video/page41/Pic_1.mp4" type="video/mp4" />
+Your browser doesn't support the HTML video tag.
+</video>
+</div>
+</div>
+</div>
+
+		</div>
+                    </div>
+                  </div>
+                
+                  
+                    
+                </div>
+                <nav> <a id="bb-nav-prev" href="javascript:void(0)" onClick="PageNavigation('prev')" class="bb-custom-icon bb-custom-icon-arrow-left">Previous</a> <a id="bb-nav-next" href="javascript:void(0)" onClick="PageNavigation('next')" class="bb-custom-icon bb-custom-icon-arrow-right">Next</a> </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  
+  <!-- Charts library --> 
+    <!-- Charts library -->
+    <div id="browsermodel" class="modal">
+        <div class="modal-content" style="width:685px">
+            <div class="modal-body">
+                <img src="../img/opps browser check.jpg" style=" float:left;  width: 30%; margin-top: 19px;" />
+                <img src="../img/compatible.jpg" style="  margin-top: 35px;    margin-left: 35px;" />
+                <a href="https://www.google.co.in/chrome/" target="_blank" style="    margin-left: 40px;"><img src="../img/download.png" /></a>
+            </div>
+        </div>
+    </div>
+
+
+
+  <!--  <div id="Expiredmodel" class="modal" style="background-color: hsla(0, 0%, 0%, 0.92);">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="../img/oopsproductvalidity.png" style="width: 100%;" />
+            </div>
+        </div>
+    </div>  -->
+    
+  
+</div>
+<script type="text/javascript" src="../js/jquery.fullscreen.min.js"></script> 
+<script src="../js/common.js"></script> 
+<script src="../js/standard.js"></script> 
+<!--[if lte IE 8]><script src="js/standard.ie.js"></script><![endif]--> 
+<script src="../js/jquery.tip.js"></script> 
+<script src="../js/jquery.contextMenu.js"></script> 
+<!-- Custom styles lib --> 
+<script type='text/javascript' src="../js/modernizr.custom.js"></script> 
+<script src="../js/jquery.modal.js"></script> 
+<!-- Charts library --> 
+<script type="text/javascript" src="../js/bxslider.js"></script><!-- BX Slider --> 
+<script type='text/javascript' src="../js/jquerypp.custom.js"></script> <!-- Bookblock Custom js --> 
+<script type='text/javascript' src="../js/bookblock.js"></script> <!-- Book Block js --> 
+<script type="text/javascript" src="../js/custom.js"></script><!-- Custom js --> 
+	<script src="../js/ShellFunctions.js" type="text/javascript"></script>
+
+
+<div id="modal" style="display:none"></div>
+</body>
+</html>
