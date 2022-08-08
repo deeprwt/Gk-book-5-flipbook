@@ -3,16 +3,17 @@ var lineSize = 3;
 var tempJsonObj =
 {
 	"Answers": [
-      "ll1-rr5",
-	  "ll2-rr4",
-	  "ll3-rr1",
-	  "ll4-rr3",
-	  "ll5-rr6",
-	  "ll6-rr7",
-	  "ll7-rr2",
-
+        "l1-r4",
+        "l2-r6",
+        "l3-r1",
+        "l4-r2",
+        "l5-r5",
+        "l6-r8",
+        "l7-r3",
+		"l8-r7"
 	]
 }
+
 
 var activateSecond = function()
 {
